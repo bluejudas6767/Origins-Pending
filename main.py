@@ -13,14 +13,6 @@ clock = pg.time.Clock()
 
 room = pg.image.load("assets/room.png").convert()
 
-suspects = [
-    pg.image.load("assets/suspects/blue.png").convert_alpha(),
-    pg.image.load("assets/suspects/green.png").convert_alpha(),
-    pg.image.load("assets/suspects/pink.png").convert_alpha(),
-    pg.image.load("assets/suspects/orange.png").convert_alpha(),
-    pg.image.load("assets/suspects/purple.png").convert_alpha(),
-]
-
 colour = (random.randint(50,200),random.randint(50,200),random.randint(50,200)) # generates an rgb colour, but limited between 50 and 200 to not make colours too dark/bright
 suspect = pg.image.load("assets/suspects/white.png") # loads the suspect sprite
 suspectColour = pg.Surface(suspect.get_size()).convert_alpha() 
