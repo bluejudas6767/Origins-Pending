@@ -21,7 +21,11 @@ suspects = [
     pg.image.load("assets/suspects/purple.png").convert_alpha(),
 ]
 
-suspect = random.choice(suspects)
+colour = (random.randint(50,200),random.randint(50,200),random.randint(50,200)) # generates an rgb colour, but limited between 50 and 200 to not make colours too dark/bright
+suspect = pg.image.load("assets/suspects/white.png") # loads the suspect sprite
+suspectColour = pg.Surface(suspect.get_size()).convert_alpha() 
+suspectColour.fill(colour) # recolours the blank white sprite to the randomly generated colour
+suspect.blit(suspectColour, (0,0), special_flags = pg.BLEND_RGBA_MULT) # idk what it does but the colour doesnt work without this line
 
 while True:
     clock.tick(60)
