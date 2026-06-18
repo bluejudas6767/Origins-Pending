@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Forged Identity Document",
+    "category": "Forgery",
+    "description": "A government-issue ID card with an altered photograph and a different name. The laminate is slightly bubbled near the photo.",
+    "risk_level": "High",
+    "legality": "Illegal",
+    "known_suppliers": ["document forgers", "corrupt printing houses", "identity theft networks"],
+    "incidents": ["border crossing flag at gate 3", "bank account opened under false name", "police stop — officer noted inconsistency"]
+  },
+  {
+    "name": "Unlicensed Handgun",
+    "category": "Weapon",
+    "description": "A small semi-automatic pistol with the serial number filed off. One round in the chamber. No registered owner.",
+    "risk_level": "High",
+    "legality": "Illegal",
+    "known_suppliers": ["black market arms dealers", "decommissioned police stores", "stolen from licensed holders"],
+    "incidents": ["recovered near scene of robbery", "fingerprints matched to two prior incidents", "ballistics flagged in unsolved case"]
+  },
+  {
+    "name": "Stolen Access Card — Restricted Zone",
+    "category": "Stolen Property",
+    "description": "An electronic keycard for a restricted government facility. Reported stolen three weeks ago. Still active.",
+    "risk_level": "High",
+    "legality": "Stolen",
+    "known_suppliers": ["inside contacts at the facility", "known pickpockets", "corrupt security staff"],
+    "incidents": ["used twice after reported stolen", "door log shows entry to server room", "facility raised alert after second use"]
+  },
+  {
+    "name": "Prescription Medication — No Documentation",
+    "category": "Controlled Substance",
+    "description": "A bottle of 40mg oxycodone tablets. Label removed. No prescription slip present. Over the legal carry limit.",
+    "risk_level": "Medium",
+    "legality": "Controlled",
+    "known_suppliers": ["unlicensed pharmacists", "hospital supply chain theft", "street distributors"],
+    "incidents": ["similar batch linked to two overdoses", "hospital reported missing stock", "intercepted in three other stops this month"]
+  },
+  {
+    "name": "Wiretapping Device",
+    "category": "Surveillance Equipment",
+    "description": "A small audio transmitter disguised as a plug socket adapter. Broadcasts on an unregistered frequency.",
+    "risk_level": "Medium",
+    "legality": "Illegal",
+    "known_suppliers": ["private surveillance traders", "foreign equipment brokers", "online black market listings"],
+    "incidents": ["matching device found in council chambers", "used in prior corporate espionage case", "frequency linked to known illegal broadcast network"]
+  },
+  {
+    "name": "Counterfeit Currency — Uncut Sheet",
+    "category": "Forgery",
+    "description": "An uncut sheet of high-quality counterfeit banknotes. Print quality is near-perfect. Fails UV check only.",
+    "risk_level": "High",
+    "legality": "Illegal",
+    "known_suppliers": ["organised counterfeiting rings", "overseas printing operations", "corrupt mint employees"],
+    "incidents": ["same print batch flagged at three banks", "used to pay a supplier — spotted on deposit", "watermark pattern matches known forgery network"]
+  },
+  {
+    "name": "Stolen Laptop — Police Evidence Tag Still Attached",
+    "category": "Stolen Property",
+    "description": "A laptop with an evidence sticker from a 2021 fraud investigation. Hard drive not wiped. Case still open.",
+    "risk_level": "Medium",
+    "legality": "Stolen",
+    "known_suppliers": ["evidence room leaks", "property room staff", "known receiver of stolen goods"],
+    "incidents": ["reported missing from evidence log in March", "IT flag on active investigation files", "chain of custody broken — internal inquiry opened"]
+  },
+  {
+    "name": "Unregistered Burner Phone Array",
+    "category": "Communications",
+    "description": "Seven prepaid SIM cards and three handsets, all unregistered. Call logs show encrypted messaging only.",
+    "risk_level": "Medium",
+    "legality": "Suspicious",
+    "known_suppliers": ["bulk SIM brokers", "convenience store networks", "organised crime logistics"],
+    "incidents": ["number linked to extortion message", "two numbers active during known drug delivery window", "IMEI flagged in prior trafficking case"]
+  },
+  {
+    "name": "Classified Government Report — Stamped RESTRICTED",
+    "category": "Classified Document",
+    "description": "A 14-page internal report on infrastructure vulnerabilities. Stamped RESTRICTED. Not authorised for public or private distribution.",
+    "risk_level": "High",
+    "legality": "Illegal",
+    "known_suppliers": ["civil service leaks", "contracted consultants", "journalists with inside contacts"],
+    "incidents": ["document reported missing from department six months ago", "partial contents published anonymously online", "two civil servants under investigation"]
+  },
+  {
+    "name": "Knife Above Legal Length",
+    "category": "Weapon",
+    "description": "A fixed-blade knife with a 14cm blade. Exceeds the legal 3-inch carry limit. No hunting or occupational permit found.",
+    "risk_level": "Low",
+    "legality": "Illegal",
+    "known_suppliers": ["unregistered market stalls", "online imports", "illegal weapons distributors"],
+    "incidents": ["similar blade used in assault last month", "vendor linked to two prior seizures", "blade pattern matches description from witness statement"]
+  },
+  {
+    "name": "Forged Work Permit",
+    "category": "Forgery",
+    "description": "A work authorisation permit for a restricted trade. The issuing officer stamp does not match any registered officer.",
+    "risk_level": "Medium",
+    "legality": "Illegal",
+    "known_suppliers": ["document forgers", "corrupt licensing intermediaries", "organised immigration fraud networks"],
+    "incidents": ["same issuer stamp on four other forgeries seized this year", "employer unaware permit was fake", "holder gained access to secure site on strength of document"]
+  },
+  {
+    "name": "Lock Picks — Full Set",
+    "category": "Burglary Equipment",
+    "description": "A professional-grade set of 22 picks and tension wrenches in a leather wallet. Ownership requires a locksmith licence. None found.",
+    "risk_level": "Low",
+    "legality": "Restricted",
+    "known_suppliers": ["specialist tool dealers", "stolen from licensed locksmiths", "imported via parcel networks"],
+    "incidents": ["type of pick matches marks at three recent break-ins", "set sold by supplier under investigation", "no licence registered to suspect or known associates"]
+  },
+  {
+    "name": "Police Radio — Reprogrammed",
+    "category": "Communications",
+    "description": "A decommissioned police radio reprogrammed to receive active officer channels. Receiving only, not transmitting.",
+    "risk_level": "Medium",
+    "legality": "Illegal",
+    "known_suppliers": ["electronics black market", "corrupt evidence disposal staff", "radio hobbyist underground"],
+    "incidents": ["active channel compromise flagged by comms team", "similar device found during drug raid last quarter", "channel used was live during two operations"]
+  },
+  {
+    "name": "Bag of Unmarked Cash — Large Denomination",
+    "category": "Financial",
+    "description": "Just under £10,000 in used, non-sequential banknotes. Amount falls just below the mandatory reporting threshold.",
+    "risk_level": "Medium",
+    "legality": "Suspicious",
+    "known_suppliers": ["money laundering operations", "illegal trade proceeds", "loan shark collections"],
+    "incidents": ["serial numbers overlap with notes seized in prior case", "amount consistent with known payment schedule", "found alongside financial contact of known criminal"]
+  },
+  {
+    "name": "Explosive Precursor Chemicals",
+    "category": "Hazardous Material",
+    "description": "Two sealed containers of ammonium nitrate and a small bottle of nitromethane. Legal in industrial contexts — no industrial licence present.",
+    "risk_level": "High",
+    "legality": "Restricted",
+    "known_suppliers": ["agricultural supply chains", "mining equipment distributors", "online chemical vendors"],
+    "incidents": ["supplier flagged by counter-terrorism unit", "combination matches formula in intercepted message", "quantities consistent with device construction"]
+  },
+  {
+    "name": "Stolen Postal Package — Still Sealed",
+    "category": "Stolen Property",
+    "description": "A sealed parcel addressed to a government agency. Postmark three weeks ago. No explanation for possession.",
+    "risk_level": "Low",
+    "legality": "Stolen",
+    "known_suppliers": ["postal worker theft", "delivery depot inside job", "organised mail interception rings"],
+    "incidents": ["contents listed as sensitive equipment on manifest", "sender reported interception to postal authority", "two other packages from same route also missing"]
+  }
+]

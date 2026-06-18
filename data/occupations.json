@@ -1,0 +1,17 @@
+[
+  "courier", "lab assistant", "night guard", "teacher", "mechanic",
+  "records clerk", "street vendor", "stage tech", "junior analyst", "dock worker",
+  "paramedic", "museum handler", "power-grid trainee", "private tutor", "chef",
+  "security installer", "estate cleaner", "transit engineer", "pawn broker", "radio host",
+  "archival technician", "waste transport driver", "border checkpoint officer", "textile inspector",
+  "water treatment monitor", "census collector", "quarantine liaison", "document processor",
+  "signal relay operator", "grain storage auditor", "funeral home assistant", "permit officer",
+  "livestock registrar", "bridge toll attendant", "sewage systems clerk", "railway dispatcher",
+  "coal depot supervisor", "morgue attendant", "map reproduction worker", "civic maintenance crew",
+  "port cargo inspector", "refugee processing aide", "travel visa clerk", "arms depot logger",
+  "translation contractor", "print shop operator", "boiler room attendant", "underground cable tech",
+  "cold storage handler", "unmarked transport driver", "passport lamination worker",
+  "evidence room guard", "government canteen server", "signal tower monitor", "fence repair crew",
+  "district sanitation officer", "foreign mail sorter", "building access registrar",
+  "temporary holding supervisor", "civilian identification clerk", "expired permit collector"
+]
